@@ -7,6 +7,9 @@ Also don't forget to run your live-server for this assignment.*/
 
 Rating: 5 Stars*/
 
+var newRating = document.getElementById("rating1");
+newRating.innerHTML = "Rating: 5 Stars";
+
 
 //2. Sunrise Restaurant
 /*No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Bring in some sunshine by changing the price and address to the following:
@@ -14,6 +17,11 @@ Rating: 5 Stars*/
 Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
 
+var newPrice = document.getElementById("price2");
+newPrice.innerHTML = "Price: $$$";
+
+var newAddy = document.getElementById("addy2");
+newAddy.innerHTML = "525 Kapahulu Ave, Honolulu, HI 96815";
 
 //3. Ramen Nakamura
 /*Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless.
@@ -23,6 +31,12 @@ You will need to create a new div element with an id of "hours3". Inside this di
 Hours: 6pm - 12am Sun - Sat
 
 Append this div element to the div id "text3"*/
+
+var newHours = document.createElement("div");
+newHours.id = "hours3";
+newHours.innerHTML = "Hours: 6pm - 12am Sun-Sat";
+text3.appendChild(newHours);
+
 
 
 //4. Kam Bowl
@@ -34,6 +48,11 @@ Price: $$$
 
 Append this element to the div with the id of 
 "text4"*/
+
+var newPrice4 = document.createElement("div");
+newPrice4.id = "price4";
+newPrice4.innerHTML = "Price: $$$"
+text4.appendChild(newPrice4);
 
 /*Create a new div element with an id of "addy4". Inside this div element, give it the following info:
 
